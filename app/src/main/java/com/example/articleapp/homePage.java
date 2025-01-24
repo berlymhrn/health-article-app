@@ -190,7 +190,7 @@ public class homePage extends AppCompatActivity {
                 "8 November 2024"
         ));
 
-        artikel5.setOnClickListener(view -> openDetailPage(
+        artikel6.setOnClickListener(view -> openDetailPage(
                 "4 Gerakan Yoga Untuk Mengecilkan Perut",
                 "Perut buncit bisa memengaruhi penampilan dan menurunkan rasa percaya diri. Nah, yoga untuk mengecilkan perut bisa menjadi salah satu metode yang dapat Anda lakukan untuk mengurangi lemak di bagian perut. Dengan begitu, Anda pun lebih percaya diri dengan perut yang lebih rata.\n" +
                         "\n" +
@@ -241,4 +241,5 @@ public class homePage extends AppCompatActivity {
         intent.putExtra("date", date);
         startActivity(intent);
     }
+
 }
